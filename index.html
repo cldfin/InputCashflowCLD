@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kas Majelis</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2e7d32">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #f9f9f9; }
+    iframe { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <!-- GANTI URL DI BAWAH DENGAN URL WEB APP GOOGLE APPS SCRIPT KAMU -->
+  <iframe src="https://script.google.com/macros/s/AKfycbyl0OJyucllAUDMHPHByAgbePrADu5X8ef2bbMFo7CG1klPmW_kWMbZGKQOkBBAKAeq/exec"></iframe>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
